@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50c1a92b-7988-4eea-bd6d-c4ab6078db83" name="Default Changelist" comment="update" />
+    <list default="true" id="50c1a92b-7988-4eea-bd6d-c4ab6078db83" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S3_ECG_ADGAN/metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/S3_ECG_ADGAN/metric.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,10 +40,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/S4_4_Ablation/ablation_model/saved_models" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +58,7 @@
       <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\ECG_ADGAN\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.metric">
     <configuration name="ablation_metric" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A_NOVEL_GAN_BASED_ECG_AD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +95,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/S4_3_Unknown_AD/cnn_lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="metric" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="A_NOVEL_GAN_BASED_ECG_AD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S3_ECG_ADGAN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/S3_ECG_ADGAN/metric.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.metric" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.ablation_metric" />
         <item itemvalue="Python.cnn_lstm" />
@@ -164,7 +189,9 @@
       <updated>1648729520316</updated>
       <workItem from="1648729521615" duration="4529000" />
       <workItem from="1648790900325" duration="6527000" />
-      <workItem from="1648812450198" duration="5060000" />
+      <workItem from="1648812450198" duration="6129000" />
+      <workItem from="1648887684562" duration="266000" />
+      <workItem from="1648887981715" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1648816485880</created>
@@ -173,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648816485880</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1648817766003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648817766003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,5 +222,6 @@
     <SUITE FILE_PATH="coverage/A_NOVEL_GAN_BASED_ECG_AD$cnn_lstm.coverage" NAME="cnn_lstm Coverage Results" MODIFIED="1648793683058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/S4_3_Unknown_AD" />
     <SUITE FILE_PATH="coverage/A_NOVEL_GAN_BASED_ECG_AD$model.coverage" NAME="model Coverage Results" MODIFIED="1648793521545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/S3_ECG_ADGAN" />
     <SUITE FILE_PATH="coverage/A_NOVEL_GAN_BASED_ECG_AD$ablation_metric.coverage" NAME="ablation_metric Coverage Results" MODIFIED="1648794195024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/S4_4_Ablation" />
+    <SUITE FILE_PATH="coverage/A_NOVEL_GAN_BASED_ECG_AD$metric.coverage" NAME="metric Coverage Results" MODIFIED="1648888946618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/S3_ECG_ADGAN" />
   </component>
 </project>

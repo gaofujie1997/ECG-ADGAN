@@ -1,7 +1,9 @@
+from sklearn.metrics import roc_auc_score
 from tensorflow.keras.models import load_model
 import pickle
 from model import MinibatchDiscrimination
 from uilts.utils import specify_range
+import numpy as np
 
 
 def changeshape(path):
@@ -49,14 +51,25 @@ def compute(N_path, UN_path, model_path):
 
     print("acc=%.4f" % acc, " precision=%.4f" % precision, " recall=%.4f" % recall, " F1=%.4f" % F1)
 
-    return acc, precision, recall, F1
+    N_label = np.zeros([np.shape(critic_N)[0], 1]) + 1
+    AN_label = np.zeros([np.shape(critic_UN)[0], 1])
+
+    y_true = np.concatenate((N_label, AN_label))
+
+    y_scores = np.concatenate((critic_N, critic_UN))
+
+    roc_auc = roc_auc_score(y_true, y_scores)
+
+    print("roc_auc:" + str(roc_auc))
+
+    return acc, precision, recall, F1, roc_auc
 
 
 def metric():
-    model_num = '2500'
+    model_num = '2400'
     N_path = "../data/Test_N.pkl"
     UN_path = "../data/Test_AN.pkl"
-    compute(N_path, UN_path, 'model/%s.h5' % model_num)
+    compute(N_path, UN_path, 'model/saved_models/%s.h5' % model_num)
 
 
 if __name__ == "__main__":
