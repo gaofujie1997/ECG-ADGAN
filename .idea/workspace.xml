@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50c1a92b-7988-4eea-bd6d-c4ab6078db83" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S3_ECG_ADGAN/metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/S3_ECG_ADGAN/metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S4_4_Ablation/ablation_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/S4_4_Ablation/ablation_metric.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,8 @@
       <workItem from="1648790900325" duration="6527000" />
       <workItem from="1648812450198" duration="6129000" />
       <workItem from="1648887684562" duration="266000" />
-      <workItem from="1648887981715" duration="2825000" />
+      <workItem from="1648887981715" duration="3081000" />
+      <workItem from="1648974008144" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1648816485880</created>
@@ -207,11 +209,30 @@
       <option name="project" value="LOCAL" />
       <updated>1648817766003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1648907257860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648907257860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
