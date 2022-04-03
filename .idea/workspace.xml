@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50c1a92b-7988-4eea-bd6d-c4ab6078db83" name="Default Changelist" comment="update2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50c1a92b-7988-4eea-bd6d-c4ab6078db83" name="Default Changelist" comment="update2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,15 +38,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/S4_4_Ablation/ablation_model/saved_models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baseline/BeatGAN/dataset/demo" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\baseline\BeatGAN\dataset\demo" />
+      <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\baseline\BeatGAN" />
       <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\S4_4_Ablation\ablation_model\saved_models" />
       <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\S3_ECG_ADGAN\model\saved_models" />
       <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\ECG_ADGAN\data" />
-      <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\4_3_Unknown_AD\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gfj19\PycharmProjects\A_NOVEL_GAN_BASED_ECG_AD\unupload" />
@@ -195,6 +194,7 @@
       <workItem from="1648974008144" duration="1449000" />
       <workItem from="1648975557185" duration="2907000" />
       <workItem from="1648978515798" duration="115000" />
+      <workItem from="1648978760018" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1648816485880</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648977035337</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update2">
+      <created>1648978955487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648978955487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
